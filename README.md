@@ -27,6 +27,29 @@ Ensure you have these installed:
 - **Composer** (Backend)
 - **MySQL/SQLite** (Database)
 
+## Setup
+
+1. **Clone the repository**:
+    ```bash
+    git clone
+    ```
+
+2. **Frontend Setup**:
+    ```bash
+    cd fusion-app
+    npm install
+    npm run dev
+    ```
+
+3. **Backend Setup**:
+    ```bash
+    cd fusion-api
+    composer install
+    cp .env.example .env
+    php artisan migrate
+    php artisan serve
+    ```
+    
 ## Created by
 
 [Rohan Shirke](https://github.com/rohanshirke00)
